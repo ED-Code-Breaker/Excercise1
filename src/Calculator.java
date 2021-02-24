@@ -1,9 +1,14 @@
+public class Calculator
+{
+float x,y;
 
-public class Calculator {
+float Add(float a, float b)
+{
+	return a+b;
+}
 
-	public static void main(String[] args) {
-		float x, y;
-
+	public static void main(String[] args) 
+	{
 	}
 
 }
