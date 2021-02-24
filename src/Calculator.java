@@ -6,7 +6,7 @@ public class Calculator {
 		return x*y;
 	}
 		
-  float Add(float x, float y)
+  	float Add(float x, float y)
   {
 	  return x+y;
   }
@@ -14,8 +14,10 @@ public class Calculator {
 
 	public static void main(String[] args) 
 	{
-    System.out.println("Multiply: "+multiply);
-    System.out.println("Add: "+Add);
+		float multiply=0;
+		float Add = 0;
+		System.out.println("Multiply: "+multiply);
+    	System.out.println("Add: "+Add);
 	}
 
 }
